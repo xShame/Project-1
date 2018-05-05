@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <?php
+    include("templates/head.php")
+     ?>
+  </head>
+  <body>
+    <?php
+    include("templates/header.php");
+     ?>
+    <main>
+      <?php
+      include("templates/expertise.php");
+      include("templates/work.php");
+      include("templates/project.php");
+      include("templates/contact.php");
+      include("templates/footer.php");
+       ?>
+    </main>
+  </body>
+</html>
